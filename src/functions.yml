@@ -1,0 +1,7 @@
+getTweet:
+  handler: index.handler
+  events:
+    - http:
+        path: ANY
+        method: get
+        cors: true

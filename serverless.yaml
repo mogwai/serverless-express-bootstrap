@@ -9,11 +9,5 @@ provider:
   stage: dev
   region: eu-west-1
 
-functions:
-  getTweet:
-    handler: index.handler
-    events:
-      - http:
-          path: ANY
-          method: get
-          cors: true
+funcitons:
+    - ${file(./src/functions.yml)}
