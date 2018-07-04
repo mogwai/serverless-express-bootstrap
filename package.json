@@ -4,13 +4,17 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
+    "start": "sls offline start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "serverless-http": "^1.6.0",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.28.0",
     "serverless-offline": "^3.25.5"
   }
 }
