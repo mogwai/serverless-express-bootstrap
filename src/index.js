@@ -1,5 +1,4 @@
 "use strict";
-const serverless = require("serverless-http");
 const express = require("express");
 const app = express();
 
@@ -7,4 +6,6 @@ app.get("/:id", function(req, res) {
   res.json({ message: "HEY!" });
 });
 
-module.exports.handler = serverless(app);
+// Creates a handler to be used in the .yaml file
+// and exports the app for testing using mocha
+require('./exporter')(module, app)
