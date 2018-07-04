@@ -5,7 +5,7 @@ This is a simple quick start example of using serverless with express. The goal 
 ### Quick Start
 
 ```
-npm i && npm start
+npm i && npm start & open http://localhost:3000
 ```
 
 ### Test
