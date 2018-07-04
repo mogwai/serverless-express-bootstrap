@@ -1,0 +1,19 @@
+plugins:
+  - serverless-offline
+
+service: samlabs-twitter-api
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: eu-west-1
+
+functions:
+  getTweet:
+    handler: index.handler
+    events:
+      - http:
+          path: ANY
+          method: get
+          cors: true
