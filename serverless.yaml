@@ -9,5 +9,5 @@ provider:
   stage: dev
   region: eu-west-1
 
-funcitons:
+functions:
     - ${file(./src/functions.yml)}
