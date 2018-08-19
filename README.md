@@ -10,6 +10,10 @@ npm i && npm start & open http://localhost:3000
 
 ### Test
 
+We are using [ava](https://github.com/avajs/ava) for testing which can be started like so:
+
 ```
 npm test 
 ```
+
+
