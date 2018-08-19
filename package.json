@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "sls offline start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "author": "Harry Coultas Blum",
   "repository": {
@@ -14,10 +14,13 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "express": "^4.16.3",
     "serverless-http": "^1.6.0"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "serverless": "^1.28.0",
     "serverless-offline": "^3.25.5"
   }
