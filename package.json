@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "sls offline start",
-    "test": "ava"
+    "test": "ava tests"
   },
   "author": "Harry Coultas Blum",
   "repository": {
