@@ -1,7 +1,7 @@
-getTweet:
-  handler: index.handler
+helloWorld:
+  handler: src/index.handler
   events:
     - http:
-        path: ANY
+        path: /
         method: get
         cors: true
